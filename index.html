@@ -5,6 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Rephrase – AI Writing Keyboard for iPhone</title>
   <meta name="description" content="Rephrase is an AI keyboard for iPhone. Fix grammar and change your tone in one tap, in any app. Uses Apple Intelligence on your iPhone. Free, private, works offline.">
+  <link rel="canonical" href="https://rephrase.site/">
+  <meta name="theme-color" content="#ffffff">
+  <meta name="apple-itunes-app" content="app-id=6820415493">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Rephrase">
+  <meta property="og:url" content="https://rephrase.site/">
+  <meta property="og:title" content="Rephrase – AI Writing Keyboard for iPhone">
+  <meta property="og:description" content="Fix grammar and change your tone in one tap, in any app. Free, private, works offline.">
+  <meta property="og:image" content="https://rephrase.site/images/og.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Rephrase – AI Writing Keyboard for iPhone">
+  <meta name="twitter:description" content="Fix grammar and change your tone in one tap, in any app. Free, private, works offline.">
+  <meta name="twitter:image" content="https://rephrase.site/images/og.png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Rephrase – AI Writing Keyboard",
+    "operatingSystem": "iOS 26",
+    "applicationCategory": "ProductivityApplication",
+    "description": "An AI keyboard for iPhone that fixes grammar and rewrites tone in one tap, in any app.",
+    "url": "https://rephrase.site/",
+    "downloadUrl": "https://apps.apple.com/app/id6820415493",
+    "image": "https://rephrase.site/images/icon.png",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" }
+  }
+  </script>
+
   <link rel="icon" href="images/icon.png">
   <link rel="apple-touch-icon" href="images/icon.png">
   <link rel="stylesheet" href="style.css">
@@ -14,17 +46,18 @@
     <div class="bar">
       <a class="brand" href="./"><img src="images/icon.png" alt="">Rephrase</a>
       <nav>
+        <a class="hide-sm" href="#features">Features</a>
+        <a class="hide-sm" href="#faq">FAQ</a>
         <a href="support/">Support</a>
-        <a href="privacy/">Privacy</a>
-        <a href="terms/">Terms</a>
+        <a class="nav-cta" href="https://apps.apple.com/app/id6820415493">Get the app</a>
       </nav>
     </div>
   </header>
 
   <main>
     <div class="wrap hero">
-      <img class="icon" src="images/icon.png" alt="Rephrase app icon">
-      <h1>Write better in every app</h1>
+      <img class="icon" src="images/icon.png" alt="Rephrase app icon" width="116" height="116">
+      <h1>Write better<br>in every app</h1>
       <p class="lead">Rephrase is an AI keyboard for iPhone. Fix grammar, sound more professional, or say it shorter — in one tap, in any app.</p>
       <div class="badges">
         <span class="badge">Free</span>
@@ -36,71 +69,162 @@
       <p class="note">iPhone · iOS 26 or later · English (US keyboard)</p>
     </div>
 
+    <!-- Try it: example rewrites, the same buttons as the keyboard's AI bar -->
+    <section class="wrap" id="try">
+      <h2>Try it</h2>
+      <p class="sub">Tap a button to see what Rephrase does to a quick message.</p>
+      <div class="demo glass">
+        <div class="demo-label">You typed</div>
+        <div class="bubble before">hey can u send me the numbers asap, need them for the call</div>
+        <div class="demo-label">Rephrase</div>
+        <div class="bubble after" id="demo-out" aria-live="polite">Hi, could you please send me the figures as soon as possible? I need them for the call.</div>
+        <div class="chips" role="group" aria-label="Rewrite style">
+          <button class="chip" data-tone="fix">Fix grammar</button>
+          <button class="chip on" data-tone="formal">Formal</button>
+          <button class="chip" data-tone="friendly">Friendly</button>
+          <button class="chip" data-tone="confident">Confident</button>
+          <button class="chip" data-tone="polite">Polite</button>
+          <button class="chip" data-tone="casual">Casual</button>
+          <button class="chip" data-tone="shorter">Shorter</button>
+        </div>
+        <p class="demo-note">Example results. In the app, Rephrase rewrites whatever you type.</p>
+      </div>
+    </section>
+
     <div class="wrap">
       <div class="shots">
-        <img src="images/01-hero.png" alt="Rephrase fixing a message in a chat">
-        <img src="images/02-fix-grammar.png" alt="Typos fixed in one tap">
-        <img src="images/03-formal.png" alt="Formal rewrite of a quick work text">
-        <img src="images/04-shorter.png" alt="A long update made short">
-        <img src="images/05-confident.png" alt="Hedging words removed">
-        <img src="images/06-tones.png" alt="All seven rewrite actions">
-        <img src="images/07-private.png" alt="Rephrase app setup screen">
+        <img src="images/01-hero.png" alt="Rephrase fixing a message in a chat" loading="lazy">
+        <img src="images/02-fix-grammar.png" alt="Typos fixed in one tap" loading="lazy">
+        <img src="images/03-formal.png" alt="Formal rewrite of a quick work text" loading="lazy">
+        <img src="images/04-shorter.png" alt="A long update made short" loading="lazy">
+        <img src="images/05-confident.png" alt="Hedging words removed" loading="lazy">
+        <img src="images/06-tones.png" alt="All seven rewrite actions" loading="lazy">
+        <img src="images/07-private.png" alt="Rephrase app setup screen" loading="lazy">
       </div>
     </div>
 
-    <section class="wrap">
+    <section class="wrap" id="features">
       <h2>What Rephrase does</h2>
       <div class="grid">
         <div class="card">
+          <div class="ico" aria-hidden="true">⚡️</div>
           <h3>One tap, any app</h3>
           <p>Works wherever you type: Messages, Mail, Notes, and your favorite chat and social apps. No copy and paste, no switching apps.</p>
         </div>
         <div class="card">
+          <div class="ico" aria-hidden="true">✅</div>
           <h3>Fix grammar</h3>
           <p>Spelling, grammar and punctuation fixed instantly, without changing what you meant to say.</p>
         </div>
         <div class="card">
-          <h3>Change your tone</h3>
-          <ul>
-            <li><b>Formal</b> — a polished work message</li>
-            <li><b>Friendly</b> — warm and approachable</li>
-            <li><b>Confident</b> — drop the "sorry", "just" and "maybe"</li>
-            <li><b>Polite</b> — soften demands into requests</li>
-            <li><b>Casual</b> — like a text to a friend</li>
-            <li><b>Shorter</b> — cut the filler, keep the key points</li>
-          </ul>
+          <div class="ico" aria-hidden="true">🎭</div>
+          <h3>Six tones</h3>
+          <p><b>Formal</b>, <b>Friendly</b>, <b>Confident</b>, <b>Polite</b>, <b>Casual</b> and <b>Shorter</b> — from a polished work message to a quick text to a friend.</p>
         </div>
         <div class="card">
+          <div class="ico" aria-hidden="true">↩️</div>
           <h3>Undo any time</h3>
           <p>Changed your mind? Tap Undo to get your original text back.</p>
         </div>
         <div class="card">
-          <h3>Uses Apple Intelligence</h3>
-          <p>On iPhones with Apple Intelligence, Rephrase uses Apple's on-device model. Your text never leaves your iPhone, it works offline, and it costs nothing.</p>
-        </div>
-        <div class="card">
-          <h3>Optional: your own OpenAI key</h3>
-          <p>No Apple Intelligence? Add your own OpenAI API key in the app and Rephrase uses OpenAI instead. Your key is stored only in your iPhone's Keychain.</p>
-        </div>
-        <div class="card">
+          <div class="ico" aria-hidden="true">⌨️</div>
           <h3>A real keyboard</h3>
           <p>Full QWERTY keyboard with numbers, symbols, emoji, word suggestions, typo fixes, auto-capitals and double-space for a period.</p>
         </div>
         <div class="card">
+          <div class="ico" aria-hidden="true">🔒</div>
           <h3>Private by design</h3>
           <p>Rephrase reads only the text you ask it to fix. Nothing you type is stored or tracked. No account, no ads. <a href="privacy/">Privacy policy</a></p>
         </div>
       </div>
     </section>
 
-    <section class="wrap">
+    <section class="wrap" id="engines">
+      <h2>Two ways to power it</h2>
+      <div class="grid two">
+        <div class="card engine">
+          <div class="tag">Default</div>
+          <h3>Uses Apple Intelligence</h3>
+          <p>On iPhones with Apple Intelligence, Rephrase uses Apple's on-device model.</p>
+          <ul class="ticks">
+            <li>Your text never leaves your iPhone</li>
+            <li>Works offline</li>
+            <li>Costs nothing</li>
+            <li>No Full Access needed</li>
+          </ul>
+          <p class="small">Needs iPhone 15 Pro or newer on iOS 26, with Apple Intelligence turned on.</p>
+        </div>
+        <div class="card engine">
+          <div class="tag">Optional</div>
+          <h3>Your own OpenAI key</h3>
+          <p>No Apple Intelligence? Add your own OpenAI API key in the app and Rephrase uses OpenAI instead.</p>
+          <ul class="ticks">
+            <li>Works on any iPhone with iOS 26</li>
+            <li>Key stored only in your iPhone's Keychain</li>
+            <li>Text goes straight to OpenAI — never to us</li>
+            <li>About $1 for 10,000 rewrites, billed by OpenAI</li>
+          </ul>
+          <p class="small">Needs Allow Full Access, so the keyboard can reach OpenAI.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="setup">
       <h2>Set up in 30 seconds</h2>
-      <ol class="steps glass">
-        <li>Open <b>Settings › General › Keyboard › Keyboards › Add New Keyboard</b> and choose <b>Rephrase</b>.</li>
-        <li>Tap <b>Rephrase</b> and turn on <b>Allow Full Access</b> (needed only for OpenAI).</li>
-        <li>In any app, tap the <b>globe</b> key, type or select text, and tap <b>Fix grammar</b> or a tone.</li>
-      </ol>
-      <p class="note" style="text-align:center">Need help? See <a href="support/">Support</a>.</p>
+      <div class="grid three">
+        <div class="card step">
+          <div class="num">1</div>
+          <p>Open <b>Settings › General › Keyboard › Keyboards › Add New Keyboard</b> and choose <b>Rephrase</b>.</p>
+        </div>
+        <div class="card step">
+          <div class="num">2</div>
+          <p>Tap <b>Rephrase</b> and turn on <b>Allow Full Access</b> (needed only for OpenAI).</p>
+        </div>
+        <div class="card step">
+          <div class="num">3</div>
+          <p>In any app, tap the <b>globe</b> key, type or select text, and tap <b>Fix grammar</b> or a tone.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap narrow" id="faq">
+      <h2>Questions</h2>
+      <div class="faq glass">
+        <details>
+          <summary>Is Rephrase free?</summary>
+          <p>Yes. Rephrase is free, with no account and no ads. With Apple Intelligence it costs nothing to use. If you choose OpenAI, OpenAI bills your own account — about $1 for 10,000 rewrites with the default model.</p>
+        </details>
+        <details>
+          <summary>Does Rephrase read everything I type?</summary>
+          <p>No. It processes only the text you ask it to rewrite — the selected text, or the text around the cursor that iOS shares with the keyboard. Nothing is stored or sent to us. See the <a href="privacy/">privacy policy</a>.</p>
+        </details>
+        <details>
+          <summary>Why does it ask for Full Access?</summary>
+          <p>iOS asks keyboards for Full Access before they can use the network. Rephrase needs it only to reach OpenAI. Typing and Apple's on-device model work without it.</p>
+        </details>
+        <details>
+          <summary>Which iPhones work?</summary>
+          <p>Any iPhone on iOS 26 or later. Apple's on-device model needs an iPhone with Apple Intelligence (iPhone 15 Pro or newer) with Apple Intelligence turned on. On other iPhones, add your own OpenAI key.</p>
+        </details>
+        <details>
+          <summary>Only part of my text changed. Why?</summary>
+          <p>iOS shares only the text near the cursor with keyboards. Select the text you want to rewrite first, then tap a button.</p>
+        </details>
+        <details>
+          <summary>Which languages does it support?</summary>
+          <p>Rephrase has an English (US) keyboard layout and is made for writing in English.</p>
+        </details>
+      </div>
+      <p class="note" style="text-align:center">More help on the <a href="support/">Support</a> page.</p>
+    </section>
+
+    <section class="wrap">
+      <div class="cta glass">
+        <img src="images/icon.png" alt="" width="72" height="72">
+        <h2>Sound right, every time</h2>
+        <p>Free on the App Store for iPhone.</p>
+        <a class="button" href="https://apps.apple.com/app/id6820415493">Download on the App Store</a>
+      </div>
     </section>
   </main>
 
@@ -114,5 +238,36 @@
       <p>© 2026 Rephrase. Apple Intelligence is a trademark of Apple Inc. OpenAI is a trademark of OpenAI. Rephrase is not made or endorsed by Apple or OpenAI.</p>
     </div>
   </footer>
+
+  <script>
+    // Try-it demo: show a ready-made rewrite for each button.
+    const rewrites = {
+      fix: "Hey, can you send me the numbers ASAP? I need them for the call.",
+      formal: "Hi, could you please send me the figures as soon as possible? I need them for the call.",
+      friendly: "Hey! Could you send over the numbers when you get a chance? I'd love to have them for the call.",
+      confident: "Please send me the numbers before the call. I need them to lead the discussion.",
+      polite: "Hi, would you mind sending me the numbers when you can? I'll need them for the call. Thank you!",
+      casual: "hey, can you shoot me the numbers soon? need them for the call",
+      shorter: "Please send the numbers before the call."
+    };
+    const out = document.getElementById("demo-out");
+    const calm = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    let timer;
+    document.querySelectorAll(".chip").forEach(chip => {
+      chip.addEventListener("click", () => {
+        document.querySelectorAll(".chip").forEach(c => c.classList.toggle("on", c === chip));
+        const text = rewrites[chip.dataset.tone];
+        clearInterval(timer);
+        if (calm) { out.textContent = text; return; }
+        let i = 0;
+        out.textContent = "";
+        timer = setInterval(() => {
+          i += 2;
+          out.textContent = text.slice(0, i);
+          if (i >= text.length) clearInterval(timer);
+        }, 16);
+      });
+    });
+  </script>
 </body>
 </html>
